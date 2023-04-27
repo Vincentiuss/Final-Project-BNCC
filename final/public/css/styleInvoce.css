@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#section1{
+    display: flex;
+    height: 880px;
+    background-image: url("/asset/cool1.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 140px;
+}
+
+#navbar{
+    padding: 20px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar .navlinks{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+}
+
+#navbar .navlinks li{
+    list-style: none;
+}
+
+#navbar .navlinks a{
+    color: #cee4ff;
+}
+
+#tab1{
+    width: 110%;
+}
+
+#card1{
+    padding-right: 90px;
+    width: 130%;
+}
+
+h2{
+    padding-left: 70px;
+}
